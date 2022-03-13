@@ -1,0 +1,81 @@
+.logout {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 101;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.sidebar {
+    /* position:fixed; */
+    top: 0;
+    left:0;
+    bottom: 0;
+    padding: 20px 0 0 0;
+    /* border-right: 1px solid #d3d3d3; */
+    background-color: #20273C;
+    box-shadow: 0 5px 5px grey;
+    z-index: 100;
+}
+
+.left-sidebar {
+    position: sticky;
+    top: 0;
+    height: calc(100vh-50px);
+    
+}
+
+.logo {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.left-sidebar li .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.left-sidebar li a {
+    display: block;
+}
+
+.left-sidebar li .active {
+    background-color: #833A97 !important;
+}
+
+.image-container {
+    /* position: relative; */
+    height: calc(50vh);
+    overflow: hidden;
+    /* background-image: url("/src/main/webapp/images/adminpage-image.jpg"); */
+}
+
+.admin-image {
+    width: 100% !important;
+    /* position:absolute; */
+    /* position: relative; */
+    
+    /* top: 0px;
+    left: 0px;
+    bottom: 0px; */
+}
+
+.main {
+    /* border: 1px red solid; */
+}
+
+.table-caption {
+    background-color: #833A97;
+    color: #ffffff;
+}
+
+.content-container {
+    background-color: #1A2034;
+    height: calc(50vh);
+}
+
+.table-member {
+    width: 80%;
+}

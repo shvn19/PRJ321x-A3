@@ -1,0 +1,123 @@
+.page-container {
+	padding: 0;
+}
+
+.header {
+	height: 150px;
+	background-color: #222F3C;
+	padding: 10px;
+}
+
+.logoslogan-container {
+	color: #ffffff;
+	min-width: 200px;
+}
+
+.logo {
+	font-family: 'Saira Condensed', sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.slogan {
+	font-family: 'Great Vibes', cursive;
+	font-size: larger;
+}
+
+.searchbar-container {
+	padding: 10px;
+	color: #ffffff;
+}
+
+.btn-warning {
+	border: none;
+}
+
+.bg-light {
+	background-color: #cac9c9 !important;
+}
+
+.my-navbar {
+	background-color: #293847;
+}
+
+.nav-link {
+	color: #ffffff !important;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.login {
+
+}
+
+.login a {
+	color: #ffffff;
+}
+
+.login a:visited {
+	color: #ffffff;
+}
+
+.body {
+	
+}
+
+.body-content {
+	
+}
+
+.card {
+	margin: 20px;
+	width: 25%;
+	max-width: 250px;
+	min-width: 200px;
+	padding-top: 20px;
+}
+
+.card-img-top-container {
+	height: 198px !important;
+}
+
+
+.card-img-top {
+	width: 80%;
+	height: 198px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card h6 {
+	color: #AF2813;
+	font-weight: bold;
+}
+
+.body-page-selector {
+	
+}
+
+.page-link {
+	border-radius: 50% !important;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+@media only screen and (max-width:575px) {
+	.header {
+		height: 60px;
+		padding-top: 0;
+	}
+	
+	.searchbar-container {
+		width: 100%;
+	}
+	
+	.card {
+		width: 60%;
+	}
+	.login {
+		width: 100%;
+	}
+}

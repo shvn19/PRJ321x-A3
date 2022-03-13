@@ -1,0 +1,128 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#cart-table-product {
+    border-spacing: 0;
+    border-collapse: separate;
+    width: 100%;
+}
+
+#cart-table-product tr th,
+#cart-table-product tr td{
+    border-right: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    padding:10px;
+}
+
+#cart-table-product tr th:first-child,
+#cart-table-product tr td:first-child {
+  border-left: 1px solid #bbb;
+}
+
+#cart-table-product tr th {
+  background: #EE8824;
+  border-top: 1px solid #bbb;
+  text-align: left;
+}
+
+/* top-left border-radius */
+#cart-table-product tr:first-child th:first-child {
+  border-top-left-radius: 6px;
+}
+
+/* top-right border-radius */
+#cart-table-product tr:first-child th:last-child {
+  border-top-right-radius: 6px;
+}
+
+/* bottom-left border-radius */
+#cart-table-product tr:last-child td:first-child {
+  border-bottom-left-radius: 6px;
+}
+
+/* bottom-right border-radius */
+#cart-table-product tr:last-child td:last-child {
+  border-bottom-right-radius: 6px;
+}
+
+ /* set width of each column */
+#cart-table-product th:nth-child(1) {
+    width: 10%;
+  }
+
+  #cart-table-product th:nth-child(2) {
+    width: 30%;
+  }
+
+  #cart-table-product th:nth-child(3),
+  #cart-table-product th:nth-child(4),
+  #cart-table-product th:nth-child(5)
+  {
+    width: 20%;
+  }
+
+.cart-table-account-info{
+    border-spacing: 0;
+    width: 50%;
+}
+
+.cart-table-account-info th,
+.cart-table-account-info td{
+    border: 1px solid #bbb;
+    padding: 10px;
+    text-align: left;
+    width: 50px;
+}
+
+.cart-table-account-info tr:first-child th {
+    border-top-left-radius: 6px;
+}
+
+.cart-table-account-info tr:first-child td:last-child {
+    border-top-right-radius: 6px;
+}
+
+.cart-table-account-info tr:last-child th {
+    border-bottom-left-radius: 6px;
+}
+
+.cart-table-account-info tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
+
+.cart-button-submit {
+    background: #EE8824;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 30px;
+    color: #fff;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.cart-incrementerbutton {
+    display: block;
+    float:right;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 5px;
+    width: 30px;
+    border: 1px solid #bbb;
+}
+
+.cart-number-quantity {
+    float:left;
+    padding: 5px 5px;
+}
+
+.cart-drop-item {
+    float:left;
+    background-color: #F9192C;
+    color: #fff;
+    font-weight: bolder;
+    float:right;
+}

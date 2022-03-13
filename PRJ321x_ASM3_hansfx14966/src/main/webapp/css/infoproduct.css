@@ -1,0 +1,146 @@
+.table-info {
+	/* border: 1px grey solid;
+    border-collapse: collapse; */
+	width: 100%;
+}
+
+.table-info td {
+	width: 50%;
+	padding: 20px;
+	/* border: 1px grey solid; */
+}
+
+.cell-image {
+	text-align: center;
+	vertical-align: center;
+}
+
+.table-info-right {
+	border: none;
+}
+
+.price {
+	color: #f00;
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.info-product-name {
+	color: #F9192C !important;
+	font-weight: bolder !important;
+	font-size: 25px !important;
+}
+
+.description {
+	color: #626262;
+	/* font-weight: bold; */
+	font-size: 18px;
+}
+
+.right-info-quantity-cluster {
+	font-size: 18px;
+}
+
+.button-addtocart {
+	background-color: #EE8824;
+	color: #eeeeee;
+	font-weight: bolder;
+	font-size: 20px;
+	border-radius: 3px;
+	border: none;
+	padding: 15px;
+}
+
+.table-quantity {
+	
+}
+
+.table-quantity td {
+	padding-top: 20px;
+}
+
+.form-group {
+	/* width: 30%;
+    margin: 30px; */
+	font-family: monospace;
+}
+
+.input-group-btn {
+	border: 1px gray solid;
+	border-radius: 3px;
+	background-color: #334cb9;
+	color: #95d7fc;
+	width: 30px;
+	height: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.input-number {
+	padding: auto;
+	text-align: center;
+	max-width: 52px;
+}
+
+.form-group .glyphicon {
+	color: #95d7fc;
+	font-weight: 900;
+	/*     font-size: 20px; */
+	display: block;
+}
+
+.incrementerbutton {
+	background-color: blue;
+	width: 40px;
+	display: flex;
+}
+
+@media ( max-width : 575px) {
+	.cell-image img{
+		width: 50%;
+		min-width: 200px;
+	}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media ( min-width : 576px) {
+	.cell-image img{
+		width: 50%;
+	}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media ( min-width : 768px) {
+	.cell-image img{
+		width: 80%;
+	}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width:992px)
+{
+		.cell-image img{
+		width: 80%;
+	}
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media
+(
+min-width
+:
+1200px)
+{
+	.cell-image img{
+		width: 50%;
+	}
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media
+(
+min-width
+:
+1400px)
+{
+}

@@ -1,0 +1,20 @@
+* {
+    font-family: 'Baloo 2', cursive;
+}
+
+.my-header {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.register-submit {
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #FC4D36;
+    /* border-radius: 20%; */
+}
+
+.register-outer-container {
+    max-width: 500px;
+    min-width: 300px;
+}
